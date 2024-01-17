@@ -1,0 +1,80 @@
+body {
+  background-color: #f8f9fa !important; /* Light Grayish Background Color */
+  color: #343a40 !important; /* Dark Text Color */
+}
+
+.btn-custom-orange,
+  .btn-outline-custom-orange {
+    color: #ffffff;
+    background-color: #ff7f00;
+    border-color: #ff7f00;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  .btn-custom-orange:hover,
+  .btn-outline-custom-orange:hover {
+    background-color: #e67000;
+    border-color: #e67000;
+    color: #ffffff; /* Ensure text stays white on hover */
+  }
+
+  /* Left side buttons */
+  .btn-outline-custom-orange:hover,
+  .btn-outline-secondary:hover {
+    background-color: #ffffff;
+    color: #000000; /* Change text color on hover */
+  }
+
+  /* Right side buttons */
+  .btn-custom-orange:hover,
+  .btn-primary:hover {
+    background-color: #e67000; /* Darker orange color on hover */
+    border-color: #e67000;
+    color: #ffffff; /* Ensure text stays white on hover */
+  }
+
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+
+  .dropdown-item:hover {
+    background-color: #78D6C6; /* Change to your desired hover color */
+    color: #fff; /* Change text color on hover for better visibility */
+}
+
+
+  .navbar {
+    background-color: #3498db !important; /* Beautiful Blue Color */
+  }
+
+  .navbar-brand {
+    color: #ffffff !important; /* White Text Color for Navbar Brand */
+  }
+
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* White Text Color for Navbar Links */
+  }
+
+  .navbar-toggler-icon {
+    background-color: #ffffff !important; /* White Color for Navbar Toggler Icon */
+  }
+
+  .navbar-toggler {
+    border-color: #ffffff !important; /* White Color for Navbar Toggler Border */
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none; /* Remove outline on focus or active state */
+  }
+  .navbar-nav .nav-link:hover {
+ 
+    color: #000000 !important; /* White text color on hover */
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 750px; /* Set your desired height */
+    object-fit: cover; /* This ensures the image covers the entire container */
+ }
